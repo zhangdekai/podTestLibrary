@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TSActionAlterView.h"
+//#import "TSActionAlterView.h"
 #import "TSDatePickerView.h"
 #import "PersonalOrCompanyView.h"
 #import "TSVoiceManager.h"

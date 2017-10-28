@@ -1,38 +1,39 @@
+////
+////  VPImageCropperViewController.h
+////  VPolor
+////
+////  Created by Vinson.D.Warm on 12/30/13.
+////  Copyright (c) 2013 Huang Vinson. All rights reserved.
+////
 //
-//  VPImageCropperViewController.h
-//  VPolor
+//#import <UIKit/UIKit.h>
 //
-//  Created by Vinson.D.Warm on 12/30/13.
-//  Copyright (c) 2013 Huang Vinson. All rights reserved.
+//@class VPImageCropperViewController;
 //
+//@protocol VPImageCropperDelegate <NSObject>
+//
+//- (void)imageCropper:(VPImageCropperViewController *)cropperViewController didFinished:(UIImage *)editedImage;
+//- (void)imageCropperDidCancel:(VPImageCropperViewController *)cropperViewController;
+//
+//@end
+//
+//@interface VPImageCropperViewController : UIViewController
+//
+//@property (nonatomic, assign) NSInteger tag;
+//@property (nonatomic, assign) id<VPImageCropperDelegate> delegate;
+//@property (nonatomic, assign) CGRect cropFrame;
+//@property (nonatomic,assign) BOOL hiddenCancle;
+//
+//
+////菊花
+//@property (nonatomic,strong)UIActivityIndicatorView *juHuaView;
+//
+//
+//- (id)initWithImage:(UIImage *)originalImage cropFrame:(CGRect)cropFrame limitScaleRatio:(NSInteger)limitRatio;
+//
+//
+//- (id)initWithImageURL:(NSString *)imageUrl cropFrame:(CGRect)cropFrame limitScaleRatio:(NSInteger)limitRatio;
+//
+//
+//@end
 
-#import <UIKit/UIKit.h>
-
-@class VPImageCropperViewController;
-
-@protocol VPImageCropperDelegate <NSObject>
-
-- (void)imageCropper:(VPImageCropperViewController *)cropperViewController didFinished:(UIImage *)editedImage;
-- (void)imageCropperDidCancel:(VPImageCropperViewController *)cropperViewController;
-
-@end
-
-@interface VPImageCropperViewController : UIViewController
-
-@property (nonatomic, assign) NSInteger tag;
-@property (nonatomic, assign) id<VPImageCropperDelegate> delegate;
-@property (nonatomic, assign) CGRect cropFrame;
-@property (nonatomic,assign) BOOL hiddenCancle;
-
-
-//菊花
-@property (nonatomic,strong)UIActivityIndicatorView *juHuaView;
-
-
-- (id)initWithImage:(UIImage *)originalImage cropFrame:(CGRect)cropFrame limitScaleRatio:(NSInteger)limitRatio;
-
-
-- (id)initWithImageURL:(NSString *)imageUrl cropFrame:(CGRect)cropFrame limitScaleRatio:(NSInteger)limitRatio;
-
-
-@end
