@@ -15,7 +15,7 @@
     UIButton *button = [[UIButton alloc]init];
     [button setContentHorizontalAlignment:(UIControlContentHorizontalAlignmentLeft)];
     [button setTitle:title forState:(UIControlStateNormal)];
-    [button setTitleColor:[UIColor blackColor] forState:0];
+    [button setTitleColor:[UIColor redColor] forState:0];
     button.titleLabel.font = [UIFont systemFontOfSize:17];
     
     return button;

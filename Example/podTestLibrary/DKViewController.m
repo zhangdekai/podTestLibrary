@@ -7,6 +7,8 @@
 //
 
 #import "DKViewController.h"
+#import "UIButton+CustomUtils.h"
+
 
 @interface DKViewController ()
 
@@ -18,6 +20,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *test = [UIButton customCommonButton:@"测试pod"];
+    [self.view addSubview:test];
+    test.frame = CGRectMake(100, 100, 100, 20);
+    
 }
 
 - (void)didReceiveMemoryWarning
