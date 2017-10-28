@@ -23,14 +23,6 @@
 #import "UILabel+Space.h"
 #import "UITableView+YMHRefresh.h"
 #import "UIView+YMHAdditions.h"
-#import "BasicViewController+Network.h"
-#import "BasicViewController+TSTakePhotos.h"
-#import "UINavigationController+FDFullscreenPopGesture.h"
-#import "UIViewController+Alter.h"
-#import "UIViewController+AlterView.h"
-#import "UIViewController+ClassReserve.h"
-#import "UIViewController+Loacte.h"
-#import "UIViewController+Operation.h"
 
 FOUNDATION_EXPORT double podTestLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char podTestLibraryVersionString[];

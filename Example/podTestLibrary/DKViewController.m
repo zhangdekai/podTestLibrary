@@ -9,7 +9,6 @@
 #import "DKViewController.h"
 #import "UIButton+CustomUtils.h"
 
-
 @interface DKViewController ()
 
 @end
@@ -20,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+    //sudo gem install cocoapods --pre
     UIButton *test = [UIButton customCommonButton:@"测试pod"];
     [self.view addSubview:test];
     test.frame = CGRectMake(100, 100, 100, 20);

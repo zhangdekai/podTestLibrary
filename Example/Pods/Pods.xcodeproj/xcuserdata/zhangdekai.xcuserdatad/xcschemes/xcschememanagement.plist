@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DKSpecTest01.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Expecta+Snapshots.xcscheme</key>
 		<dict>
 			<key>isShown</key>

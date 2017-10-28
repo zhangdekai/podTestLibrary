@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## DKSpecTest01
+
+LICENSE
+
 ## Expecta
 
 Copyright (c) 2011-2015 Specta Team - https://github.com/specta

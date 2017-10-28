@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podTestLibrary'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A test for podTestLibrary.'
   s.description      = <<-DESC
  A test for the pod library,for zujianhua development.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :text => 'LICENSE' }
   s.author           = { '张德凯' => 'zdkzhuizhu@163.com' }
-  s.source           = { :git => 'https://github.com/zhangdekai/podTestLibrary.git', :tag => "0.1.0" }
+  s.source           = { :git => 'https://github.com/zhangdekai/podTestLibrary.git', :tag => "0.2.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'
+#s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

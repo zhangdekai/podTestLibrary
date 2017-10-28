@@ -1,5 +1,8 @@
 use_frameworks!
 
+source'https://git.coding.net/zhangdekai_5111/Thinker.git'
+source'https://github.com/CocoaPods/Specs.git'
+
 target 'podTestLibrary_Example' do
   pod 'podTestLibrary', :path => '../'
 
@@ -10,5 +13,6 @@ target 'podTestLibrary_Example' do
   pod 'Expecta'
   pod 'FBSnapshotTestCase'
   pod 'Expecta+Snapshots'
+  pod 'DKSpecTest01', '~> 0.1.0'
   end
 end
