@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podTestLibrary'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A test for podTestLibrary.'
   s.description      = <<-DESC
  A test for the pod library,for zujianhua development.
@@ -18,12 +18,19 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :text => 'LICENSE' }
   s.author           = { '张德凯' => 'zdkzhuizhu@163.com' }
-  s.source           = { :git => 'https://github.com/zhangdekai/podTestLibrary.git', :tag => "0.2.0" }
+  s.source           = { :git => 'https://github.com/zhangdekai/podTestLibrary.git', :tag => "0.3.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'podTestLibrary/Classes/**/*'
+#s.source_files = 'podTestLibrary/Classes/**/*'
+    s.subspec "Tools" do |ss|
+        ss.source_files = "Pod/Classes/Tools/**/*"
+    end
+
+    s.subspec "Categories" do |ss|
+    ss.source_files = "Pod/Classes/Categories/**/*"
+    end
   
   # s.resource_bundles = {
   #   'podTestLibrary' => ['podTestLibrary/Assets/*.png']

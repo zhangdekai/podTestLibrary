@@ -1,18 +1,18 @@
 use_frameworks!
 
-source'https://git.coding.net/zhangdekai_5111/Thinker.git'
-source'https://github.com/CocoaPods/Specs.git'
+source'https://git.coding.net/zhangdekai_5111/Thinker.git'#私有repo Spec
+source'https://github.com/CocoaPods/Specs.git'#cocoapods公有repo Spec
 
-target 'podTestLibrary_Example' do
-  pod 'podTestLibrary', :path => '../'
+target 'podTestLibrary_Example' do   #demo 用的
+    pod 'podTestLibrary', :path => '../'
+#    pod 'podTestLibrary', '~> 0.2.0'
 
-  target 'podTestLibrary_Tests' do
-    inherit! :search_paths
-
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
-  pod 'DKSpecTest01', '~> 0.1.0'
-  end
+#target 'podTestLibrary_Tests' do    #test 用的
+#    inherit! :search_paths
+#
+#  pod 'Specta'
+#  pod 'Expecta'
+#  pod 'FBSnapshotTestCase'
+#  pod 'Expecta+Snapshots'
+#  end
 end

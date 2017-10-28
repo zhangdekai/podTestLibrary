@@ -1,5 +1,4 @@
 PODS:
-  - DKSpecTest01 (0.1.0)
   - Expecta (1.0.6)
   - Expecta+Snapshots (3.1.1):
     - Expecta (~> 1.0)
@@ -10,11 +9,10 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - podTestLibrary (0.1.0)
+  - podTestLibrary (0.2.0)
   - Specta (1.0.7)
 
 DEPENDENCIES:
-  - DKSpecTest01 (~> 0.1.0)
   - Expecta
   - Expecta+Snapshots
   - FBSnapshotTestCase
@@ -26,13 +24,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DKSpecTest01: b0484f201c7aabf56fbcc52c308e467086be8464
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  podTestLibrary: 446b008fc7186c4631baa6168732ca377cbde469
+  podTestLibrary: 898d1aedbbdb13bbfd240842e854b75b67abadfc
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 2607c0b5eb39d6ad8d534e32e7964a2b40d812ed
+PODFILE CHECKSUM: 3d9e0f99923d92ac0a7dfbeb03303f3c053d0cc3
 
 COCOAPODS: 1.2.1

@@ -1,6 +1,6 @@
 {
   "name": "podTestLibrary",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A test for podTestLibrary.",
   "description": "A test for the pod library,for zujianhua development.",
   "homepage": "https://github.com/zhangdekai/podTestLibrary.git",
@@ -13,14 +13,10 @@
   },
   "source": {
     "git": "https://github.com/zhangdekai/podTestLibrary.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "podTestLibrary/Classes/**/*",
-  "frameworks": [
-    "UIKit",
-    "MapKit"
-  ]
+  "source_files": "podTestLibrary/Classes/**/*"
 }
